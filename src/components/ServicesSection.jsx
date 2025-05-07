@@ -1,3 +1,8 @@
+import resedential_construction from "../assets/images/resedential_construction.jpg"
+import commercial_buildings from "../assets/images/commercial_buildings.jpg"
+import renovation_services from "../assets/images/renovation_services.jpg"
+import infrastructure_projects from "../assets/images/infrastructure_projects.jpg"
+
 const ServiceCard = ({ title, description, imageUrl }) => {
     return (
       <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
@@ -15,22 +20,22 @@ const ServiceCard = ({ title, description, imageUrl }) => {
       {
         title: "Residential Construction",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
-        imageUrl: "/api/placeholder/600/400"
+        imageUrl: resedential_construction
       },
       {
         title: "Commercial Buildings",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
-        imageUrl: "/api/placeholder/600/400"
+        imageUrl: commercial_buildings
       },
       {
         title: "Renovation Services",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
-        imageUrl: "/api/placeholder/600/400"
+        imageUrl: renovation_services
       },
       {
         title: "Infrastructure Projects",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.",
-        imageUrl: "/api/placeholder/600/400"
+        imageUrl: infrastructure_projects
       }
     ];
   

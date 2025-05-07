@@ -1,3 +1,5 @@
+import construction_company from "../assets/images/construction_company.jpg"
+
 const AboutSection = () => {
     return (
       <section id="about" className="py-20">
@@ -5,7 +7,7 @@ const AboutSection = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <img 
-                src="/api/placeholder/800/600" 
+                src={construction_company}
                 alt="About Company_Name Construction" 
                 className="rounded-lg shadow-lg w-full h-auto" 
               />
