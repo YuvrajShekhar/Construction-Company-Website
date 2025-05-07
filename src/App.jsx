@@ -1,16 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import HeroSection from './components/HeroSection';
+import ServicesSection from './components/ServicesSection';
+import AboutSection from './components/AboutSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className="relative">
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
+      <main>
+        <HeroSection />
+        <ServicesSection />
+        <AboutSection />
+        <ContactSection />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
