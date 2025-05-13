@@ -12,7 +12,7 @@ const ContactSection = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols gap-12">
           {/* Contact Information */}
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
@@ -64,10 +64,10 @@ const ContactSection = () => {
             </div>
           </div>
           
-          {/* Map */}
+          {/* Map
           <div className="bg-gray-300 rounded-lg shadow-lg flex items-center justify-center h-full">
             <p className="text-gray-600">Map placeholder - Would integrate Google Maps here</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
