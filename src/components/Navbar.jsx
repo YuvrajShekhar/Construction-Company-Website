@@ -21,15 +21,15 @@ const Navbar = ({ toggleSidebar }) => {
     <nav className={`fixed w-full z-40 transition-all duration-300 ${scrolled ? 'bg-white shadow py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className={`text-2xl font-bold ${scrolled ? 'text-yellow-600' : 'text-white'}`}>Company_Name</h1>
+          <h1 className={`text-2xl font-bold ${scrolled ? 'text-yellow-600' : 'text-white'}`}>Neovista Construction UG</h1>
         </div>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
-          <a href="#hero" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Home</a>
-          <a href="#services" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Services</a>
-          <a href="#about" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>About Us</a>
-          <a href="#contact" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Contact</a>
+          <a href="#hero" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Startseite</a>
+          <a href="#services" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Leistungen</a>
+          <a href="#about" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Über uns</a>
+          <a href="#contact" className={`${scrolled ? 'text-gray-800' : 'text-white'} hover:text-yellow-500 font-medium`}>Kontakt</a>
         </div>
         
         {/* Mobile Menu Button */}

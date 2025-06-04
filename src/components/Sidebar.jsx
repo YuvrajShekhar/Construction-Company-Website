@@ -15,7 +15,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <div className={`fixed inset-y-0 right-0 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
         <div className="w-64 h-full bg-white shadow-lg flex flex-col">
           <div className="p-4 flex justify-between items-center border-b">
-            <h2 className="text-xl font-bold text-yellow-600">Company_Name</h2>
+            <h2 className="text-xl font-bold text-yellow-600">Neovista Construction UG</h2>
             <button 
               className="p-2 rounded-lg text-gray-600 hover:bg-gray-100"
               onClick={toggleSidebar}
