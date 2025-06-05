@@ -43,8 +43,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Rechtliches</h3>
             <ul className="space-y-2 mb-6">
-              <li><a href="/copyright" className="text-gray-400 hover:text-yellow-500">Impressum</a></li>
-              <li><a href="/PrivacyPolicy" className="text-gray-400 hover:text-yellow-500">Datenschutzerklärung</a></li>
+              <li><a href="/impressum" className="text-gray-400 hover:text-yellow-500">Impressum</a></li>
+              <li><a href="/datenschutz" className="text-gray-400 hover:text-yellow-500">Datenschutzerklärung</a></li>
             </ul>
             <div className="space-y-2 text-gray-400">
               <p className="font-semibold text-white">Kontakt:</p>
@@ -53,18 +53,8 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Company Info
-          <div>
-            <h3 className="text-xl font-bold mb-4">Unternehmen</h3>
-            <div className="space-y-2 text-gray-400">
-              <p>Neovista Construction UG</p>
-              <div className="mt-4">
-                <p className="font-semibold text-white">Geschäftsführer:</p>
-                <p>Alexander Schell</p>
-                <p>Viktor Shevsov</p>
-              </div>
-            </div>
-          </div> */}
+          {/* Company Info */}
+          
         </div>
         
         {/* Copyright */}

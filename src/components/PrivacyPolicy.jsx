@@ -22,15 +22,15 @@ const PrivacyPolicy = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Neovista Construction UG</strong><br />
-                  Dänenstr. 6<br />
-                  10439 Berlin
+                  <strong className="text-gray-900">Kelrion Labs Ltd</strong><br />
+                  Tasou Mitsopoulou 64B, Office 54<br />
+                  6028 Larnaca, Zypern
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@bearlocal.de</a>
+                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">office@netznavi.net</a>
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Diese Datenschutzerklärung gilt für die Website <a href="https://www.netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.neovistaconstruction.de</a> sowie die dazugehörige Web-App.
+                  Diese Datenschutzerklärung gilt für die Website <a href="https://www.netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.netznavi.net</a> sowie die dazugehörige Web-App.
                 </p>
               </div>
             </section>
@@ -101,10 +101,42 @@ const PrivacyPolicy = () => {
               </div>
             </section>
 
+            {/* 5. Google/Firebase Analytics */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                5. Google/Firebase Analytics
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Wir nutzen Firebase Analytics (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland) zur Analyse der App-Nutzung.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong className="text-gray-900">Erhobene Daten:</strong> Geräteinformationen, Nutzungsdauer, Bildschirmaufrufe, App-Version, u. a.
+                </p>
+                <ul className="space-y-2 pl-4">
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    IP-Anonymisierung ist aktiviert.
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    Datenübertragung in Drittländer (z. B. USA) kann erfolgen.
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    Rechtsgrundlage: Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
+                  </li>
+                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong className="text-gray-900">Opt-out:</strong> Sie können in den App-Einstellungen oder mit Tools wie <a href="https://tools.google.com/dlpage/gaoptout" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">Google Analytics Opt-out</a> das Tracking deaktivieren.
+                </p>
+              </div>
+            </section>
+
             {/* 6. Kontaktformular */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                5. Kontaktformular
+                6. Kontaktformular
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
@@ -116,17 +148,108 @@ const PrivacyPolicy = () => {
               </div>
             </section>
 
-            {/* 7. Änderungen dieser Erklärung */}
+            {/* 7. Nutzerkonto / Registrierung */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                6. Änderungen dieser Erklärung
+                7. Nutzerkonto / Registrierung
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Für den Zugriff auf die App kann ein Benutzerkonto erstellt werden. Dabei erheben wir folgende Daten:
+                </p>
+                <ul className="space-y-2 pl-4">
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    Name (optional)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    E-Mail-Adresse
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    Passwort (verschlüsselt gespeichert)
+                  </li>
+                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  Die Daten dienen ausschließlich der Nutzung der App. Eine Weitergabe an Dritte erfolgt nicht.
+                </p>
+              </div>
+            </section>
+
+            {/* 8. Ihre Rechte */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                8. Ihre Rechte
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                <p className="text-gray-700 leading-relaxed mb-3">Sie haben das Recht:</p>
+                <ul className="space-y-2 pl-4">
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Auskunft über Ihre Daten (Art. 15 DSGVO)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Berichtigung (Art. 16)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Löschung (Art. 17)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Einschränkung der Verarbeitung (Art. 18)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Datenübertragbarkeit (Art. 20)
+                  </li>
+                  <li className="text-gray-700 flex items-start">
+                    <span className="text-yellow-600 mr-2">•</span>
+                    auf Widerspruch (Art. 21)
+                  </li>
+                </ul>
+                <p className="text-gray-700 leading-relaxed">
+                  <strong className="text-gray-900">Widerruf:</strong> Eine erteilte Einwilligung können Sie jederzeit widerrufen.
+                </p>
+              </div>
+            </section>
+
+            {/* 9. Beschwerderecht */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                9. Beschwerderecht
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren.
+                </p>
+                <div>
+                  <p className="text-gray-700 leading-relaxed mb-3 font-medium">Für Zypern:</p>
+                  <div className="pl-4">
+                    <p className="text-gray-700 leading-relaxed">
+                      <strong className="text-gray-900">Commissioner for Personal Data Protection</strong><br />
+                      Iasonos 1, 1082 Nicosia<br />
+                      E-Mail: <a href="mailto:commissioner@dataprotection.gov.cy" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">commissioner@dataprotection.gov.cy</a><br />
+                      <a href="https://www.dataprotection.gov.cy" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.dataprotection.gov.cy</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* 10. Änderungen dieser Erklärung */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                10. Änderungen dieser Erklärung
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
                   Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder technische Änderungen anzupassen.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Letzte Aktualisierung:</strong> Juni 2025
+                  <strong className="text-gray-900">Letzte Aktualisierung:</strong> März 2025
                 </p>
               </div>
             </section>
