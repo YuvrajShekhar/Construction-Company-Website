@@ -58,8 +58,8 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  Eintragung im Handelsregister von Nikosia<br />
-                  Registergericht: Nikosia<br />
+                  Eintragung im Handelsregister von Berlin<br />
+                  Registergericht: Amtsgericht Charlottenburg<br />
                   Registernummer: HRB 270861 B
                 </p>
               </div>
