@@ -22,10 +22,9 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">kelrion labs ltd</strong><br />
-                  Tasou Mitsopoulou 64B, Office 54<br />
-                  6028 Larnaca<br />
-                  Zypern
+                  <strong className="text-gray-900">Neovista Construction UG</strong><br />
+                  Dänenstr. 6<br />
+                  10439 Berlin
                 </p>
               </div>
             </section>
@@ -36,7 +35,7 @@ const CopyrightPage = () => {
                 Vertreten durch:
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-700 leading-relaxed">Max Muain, Alexander Schell</p>
+                <p className="text-gray-700 leading-relaxed">Alexander Schell, Viktor Shevsov</p>
               </div>
             </section>
 
@@ -47,7 +46,7 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">office@netznavi.net</a>
+                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@bearlocal.de</a>
                 </p>
               </div>
             </section>
@@ -61,7 +60,7 @@ const CopyrightPage = () => {
                 <p className="text-gray-700 leading-relaxed">
                   Eintragung im Handelsregister von Nikosia<br />
                   Registergericht: Nikosia<br />
-                  Registernummer: HE469814
+                  Registernummer: HRB 270861 B
                 </p>
               </div>
             </section>
@@ -73,7 +72,7 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: <strong className="text-gray-900">CY 10431028Y</strong>
+                  Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: <strong className="text-gray-900">DE451657966</strong>
                 </p>
               </div>
             </section>

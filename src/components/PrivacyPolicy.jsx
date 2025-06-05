@@ -22,15 +22,15 @@ const PrivacyPolicy = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Kelrion Labs Ltd</strong><br />
-                  Tasou Mitsopoulou 64B, Office 54<br />
-                  6028 Larnaca, Zypern
+                  <strong className="text-gray-900">Neovista Construction UG</strong><br />
+                  Dänenstr. 6<br />
+                  10439 Berlin
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">office@netznavi.net</a>
+                  E-Mail: <a href="mailto:a.schell@bearlocal.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@bearlocal.de</a>
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Diese Datenschutzerklärung gilt für die Website <a href="https://www.netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.netznavi.net</a> sowie die dazugehörige Web-App.
+                  Diese Datenschutzerklärung gilt für die Website <strong className="text-gray-900">www.neovistaconstruction.de</strong> sowie die dazugehörige Web-App.
                 </p>
               </div>
             </section>
@@ -69,118 +69,91 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
                 3. Hosting
               </h2>
-              <div className="bg-gray-50 p-6 rounded-lg">
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Unsere Website wird auf Servern innerhalb der EU gehostet. Dabei werden automatisch Server-Logfiles gespeichert (z. B. IP-Adresse, Datum, Uhrzeit, Browsertyp), um die Stabilität und Sicherheit zu gewährleisten.
+                  Unsere Website wird auf Servern innerhalb der Europäischen Union gehostet.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Dabei werden automatisch sogenannte Server-Logfiles gespeichert (z. B. IP-Adresse, Datum, Uhrzeit, Browsertyp), um die Stabilität und Sicherheit der Website zu gewährleisten.
+                </p>
+                <p className="text-gray-700 leading-relaxed italic">
+                  (Optional: Hosting-Dienstleister: z. B. IONOS SE, Hetzner Online GmbH, etc.)
                 </p>
               </div>
             </section>
 
-            {/* 4. Cookies */}
+            {/* 4. Cookies & Einwilligung nach TTDSG */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                4. Cookies
+                4. Cookies & Einwilligung nach TTDSG
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Unsere Website verwendet Cookies, um Funktionen bereitzustellen und das Nutzerverhalten zu analysieren. Beim ersten Besuch erscheint ein Cookie-Hinweis mit der Möglichkeit, bestimmte Cookies abzulehnen.
+                  Unsere Website verwendet Cookies, um grundlegende Funktionen bereitzustellen und das Nutzerverhalten zu analysieren.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Beim ersten Besuch unserer Website erscheint ein Cookie-Banner, über das Sie der Verwendung nicht-essentieller Cookies zustimmen oder diese ablehnen können.
                 </p>
                 <div>
                   <p className="text-gray-700 leading-relaxed mb-3 font-medium">Arten von Cookies:</p>
                   <ul className="space-y-2 pl-4">
                     <li className="text-gray-700 flex items-start">
                       <span className="text-yellow-600 mr-2">•</span>
-                      Technisch notwendige Cookies
+                      <strong>Technisch notwendige Cookies</strong> (für den Betrieb erforderlich – keine Einwilligung erforderlich)
                     </li>
                     <li className="text-gray-700 flex items-start">
                       <span className="text-yellow-600 mr-2">•</span>
-                      Analyse-/Tracking-Cookies (nur mit Einwilligung)
+                      <strong>Analyse-/Tracking-Cookies</strong> (werden nur mit Ihrer ausdrücklichen Einwilligung nach § 25 Abs. 1 TTDSG gesetzt)
+                    </li>
+                  </ul>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  Die Verwaltung erfolgt über unser Cookie-Consent-Tool.
+                </p>
+              </div>
+            </section>
+
+            {/* 5. Kontaktformular */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                5. Kontaktformular
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+                <p className="text-gray-700 leading-relaxed">
+                  Wenn Sie uns über ein Formular kontaktieren, verarbeiten wir Ihre angegebenen Daten (Name, E-Mail-Adresse, Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage.
+                </p>
+                <div>
+                  <p className="text-gray-700 leading-relaxed mb-3 font-medium">Rechtsgrundlage:</p>
+                  <ul className="space-y-2 pl-4">
+                    <li className="text-gray-700 flex items-start">
+                      <span className="text-yellow-600 mr-2">•</span>
+                      Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)
+                    </li>
+                    <li className="text-gray-700 flex items-start">
+                      <span className="text-yellow-600 mr-2">•</span>
+                      Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)
                     </li>
                   </ul>
                 </div>
               </div>
             </section>
 
-            {/* 5. Google/Firebase Analytics */}
+            {/* 6. Speicherdauer */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                5. Google/Firebase Analytics
+                6. Speicherdauer
               </h2>
-              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
+              <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  Wir nutzen Firebase Analytics (Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Irland) zur Analyse der App-Nutzung.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Erhobene Daten:</strong> Geräteinformationen, Nutzungsdauer, Bildschirmaufrufe, App-Version, u. a.
-                </p>
-                <ul className="space-y-2 pl-4">
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    IP-Anonymisierung ist aktiviert.
-                  </li>
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    Datenübertragung in Drittländer (z. B. USA) kann erfolgen.
-                  </li>
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    Rechtsgrundlage: Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
-                  </li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Opt-out:</strong> Sie können in den App-Einstellungen oder mit Tools wie <a href="https://tools.google.com/dlpage/gaoptout" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">Google Analytics Opt-out</a> das Tracking deaktivieren.
+                  Personenbezogene Daten speichern wir nur so lange, wie dies zur Erfüllung des jeweiligen Zwecks erforderlich ist oder gesetzliche Aufbewahrungsfristen bestehen. Nach Zweckerreichung oder Fristablauf werden die Daten gelöscht oder anonymisiert.
                 </p>
               </div>
             </section>
 
-            {/* 6. Kontaktformular */}
+            {/* 7. Ihre Rechte gemäß DSGVO */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                6. Kontaktformular
-              </h2>
-              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                <p className="text-gray-700 leading-relaxed">
-                  Wenn Sie uns per Formular kontaktieren, verarbeiten wir Ihre Angaben (Name, E-Mail, Nachricht) ausschließlich zur Bearbeitung Ihrer Anfrage.
-                </p>
-                <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a oder b DSGVO
-                </p>
-              </div>
-            </section>
-
-            {/* 7. Nutzerkonto / Registrierung */}
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                7. Nutzerkonto / Registrierung
-              </h2>
-              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                <p className="text-gray-700 leading-relaxed">
-                  Für den Zugriff auf die App kann ein Benutzerkonto erstellt werden. Dabei erheben wir folgende Daten:
-                </p>
-                <ul className="space-y-2 pl-4">
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    Name (optional)
-                  </li>
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    E-Mail-Adresse
-                  </li>
-                  <li className="text-gray-700 flex items-start">
-                    <span className="text-yellow-600 mr-2">•</span>
-                    Passwort (verschlüsselt gespeichert)
-                  </li>
-                </ul>
-                <p className="text-gray-700 leading-relaxed">
-                  Die Daten dienen ausschließlich der Nutzung der App. Eine Weitergabe an Dritte erfolgt nicht.
-                </p>
-              </div>
-            </section>
-
-            {/* 8. Ihre Rechte */}
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                8. Ihre Rechte
+                7. Ihre Rechte gemäß DSGVO
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed mb-3">Sie haben das Recht:</p>
@@ -191,65 +164,78 @@ const PrivacyPolicy = () => {
                   </li>
                   <li className="text-gray-700 flex items-start">
                     <span className="text-yellow-600 mr-2">•</span>
-                    auf Berichtigung (Art. 16)
+                    auf Berichtigung unrichtiger Daten (Art. 16 DSGVO)
                   </li>
                   <li className="text-gray-700 flex items-start">
                     <span className="text-yellow-600 mr-2">•</span>
-                    auf Löschung (Art. 17)
+                    auf Löschung Ihrer Daten (Art. 17 DSGVO)
                   </li>
                   <li className="text-gray-700 flex items-start">
                     <span className="text-yellow-600 mr-2">•</span>
-                    auf Einschränkung der Verarbeitung (Art. 18)
+                    auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
                   </li>
                   <li className="text-gray-700 flex items-start">
                     <span className="text-yellow-600 mr-2">•</span>
-                    auf Datenübertragbarkeit (Art. 20)
+                    auf Datenübertragbarkeit (Art. 20 DSGVO)
                   </li>
                   <li className="text-gray-700 flex items-start">
                     <span className="text-yellow-600 mr-2">•</span>
-                    auf Widerspruch (Art. 21)
+                    auf Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)
                   </li>
                 </ul>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Widerruf:</strong> Eine erteilte Einwilligung können Sie jederzeit widerrufen.
+                  <strong className="text-gray-900">Widerruf Ihrer Einwilligung:</strong> Sie können eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
                 </p>
               </div>
             </section>
 
-            {/* 9. Beschwerderecht */}
+            {/* 8. Beschwerderecht bei der Aufsichtsbehörde */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                9. Beschwerderecht
+                8. Beschwerderecht bei der Aufsichtsbehörde
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren.
+                  Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten rechtswidrig erfolgt, haben Sie das Recht auf Beschwerde bei einer Datenschutzaufsichtsbehörde.
                 </p>
                 <div>
-                  <p className="text-gray-700 leading-relaxed mb-3 font-medium">Für Zypern:</p>
+                  <p className="text-gray-700 leading-relaxed mb-3 font-medium">Zuständig für Berlin:</p>
                   <div className="pl-4">
                     <p className="text-gray-700 leading-relaxed">
-                      <strong className="text-gray-900">Commissioner for Personal Data Protection</strong><br />
-                      Iasonos 1, 1082 Nicosia<br />
-                      E-Mail: <a href="mailto:commissioner@dataprotection.gov.cy" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">commissioner@dataprotection.gov.cy</a><br />
-                      <a href="https://www.dataprotection.gov.cy" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.dataprotection.gov.cy</a>
+                      <strong className="text-gray-900">Berliner Beauftragte für Datenschutz und Informationsfreiheit</strong><br />
+                      Alt-Moabit 59-61<br />
+                      10555 Berlin<br />
+                      E-Mail: <a href="mailto:mailbox@datenschutz-berlin.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">mailbox@datenschutz-berlin.de</a><br />
+                      <a href="https://www.datenschutz-berlin.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">www.datenschutz-berlin.de</a>
                     </p>
                   </div>
                 </div>
               </div>
             </section>
 
-            {/* 10. Änderungen dieser Erklärung */}
+            {/* 9. Datenschutzbeauftragter */}
             <section>
               <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
-                10. Änderungen dieser Erklärung
+                9. Datenschutzbeauftragter
+              </h2>
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <p className="text-gray-700 leading-relaxed">
+                  Ein Datenschutzbeauftragter ist derzeit nicht benannt, da die gesetzlichen Voraussetzungen gemäß Art. 37 DSGVO nicht erfüllt sind. <span className="italic">(Bitte ergänzen, falls doch ein DSB benannt ist.)</span>
+                </p>
+              </div>
+            </section>
+
+            {/* 10. Änderungen dieser Datenschutzerklärung */}
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-800 mb-4 border-b-2 border-yellow-600 pb-2">
+                10. Änderungen dieser Datenschutzerklärung
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte Rechtslagen oder technische Änderungen anzupassen.
+                  Wir behalten uns vor, diese Datenschutzerklärung anzupassen, um sie an geänderte gesetzliche Vorgaben oder technische Entwicklungen anzupassen.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  <strong className="text-gray-900">Letzte Aktualisierung:</strong> März 2025
+                  <strong className="text-gray-900">Letzte Aktualisierung:</strong> Juni 2025
                 </p>
               </div>
             </section>
