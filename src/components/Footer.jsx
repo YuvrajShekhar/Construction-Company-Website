@@ -4,14 +4,13 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4">
           {/* Company Information */}
           <div>
             <h3 className="text-xl font-bold mb-4">Neovista Construction UG</h3>
             <p className="mb-4 text-gray-400">
               Ihr zuverlässiger Partner für alle klassischen Bauleistungen im Bereich Renovierung und Sanierung. Kompetent, termingerecht und mit hohem Qualitätsanspruch.
             </p>
-            
           </div>
           
           {/* Quick Links */}
@@ -40,20 +39,32 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact Info */}
+          {/* Legal & Contact Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Kontakt</h3>
+            <h3 className="text-xl font-bold mb-4">Rechtliches</h3>
+            <ul className="space-y-2 mb-6">
+              <li><a href="/copyright" className="text-gray-400 hover:text-yellow-500">Impressum</a></li>
+              <li><a href="/PrivacyPolicy" className="text-gray-400 hover:text-yellow-500">Datenschutzerklärung</a></li>
+            </ul>
             <div className="space-y-2 text-gray-400">
-              <p>Neovista Construction UG</p>
+              <p className="font-semibold text-white">Kontakt:</p>
               <p>Dänenstr. 6</p>
               <p>10439 Berlin</p>
+            </div>
+          </div>
+          
+          {/* Company Info
+          <div>
+            <h3 className="text-xl font-bold mb-4">Unternehmen</h3>
+            <div className="space-y-2 text-gray-400">
+              <p>Neovista Construction UG</p>
               <div className="mt-4">
                 <p className="font-semibold text-white">Geschäftsführer:</p>
                 <p>Alexander Schell</p>
                 <p>Viktor Shevsov</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         
         {/* Copyright */}

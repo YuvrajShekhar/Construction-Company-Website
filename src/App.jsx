@@ -6,8 +6,27 @@ import ServicesSection from './components/ServicesSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import CopyrightPage from "./components/CopyrightPage"; 
+import PrivacyPolicy from './components/PrivacyPolicy';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+  return (
+    <Router>
+      <Routes>
+        {/* Main website layout */}
+        <Route path="/" element={<MainLayout />} />
+
+        {/* Copyright page as a full separate page */}
+        <Route path="/copyright" element={<CopyrightPage />} />
+        <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+      </Routes>
+    </Router>
+  );
+}
+
+
+const MainLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
