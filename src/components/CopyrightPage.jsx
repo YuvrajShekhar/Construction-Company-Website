@@ -46,7 +46,7 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@bearlocal.de</a>
+                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@neovistaconstruction.de</a>
                 </p>
               </div>
             </section>

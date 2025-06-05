@@ -27,7 +27,7 @@ const PrivacyPolicy = () => {
                   10439 Berlin
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:a.schell@bearlocal.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@bearlocal.de</a>
+                  E-Mail: <a href="mailto:a.schell@neovistaconstruction.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@neovistaconstruction.de</a>
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Diese Datenschutzerklärung gilt für die Website <strong className="text-gray-900">www.neovistaconstruction.de</strong> sowie die dazugehörige Web-App.
@@ -75,9 +75,6 @@ const PrivacyPolicy = () => {
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Dabei werden automatisch sogenannte Server-Logfiles gespeichert (z. B. IP-Adresse, Datum, Uhrzeit, Browsertyp), um die Stabilität und Sicherheit der Website zu gewährleisten.
-                </p>
-                <p className="text-gray-700 leading-relaxed italic">
-                  (Optional: Hosting-Dienstleister: z. B. IONOS SE, Hetzner Online GmbH, etc.)
                 </p>
               </div>
             </section>
@@ -220,7 +217,7 @@ const PrivacyPolicy = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  Ein Datenschutzbeauftragter ist derzeit nicht benannt, da die gesetzlichen Voraussetzungen gemäß Art. 37 DSGVO nicht erfüllt sind. <span className="italic">(Bitte ergänzen, falls doch ein DSB benannt ist.)</span>
+                  Ein Datenschutzbeauftragter ist derzeit nicht benannt, da die gesetzlichen Voraussetzungen gemäß Art. 37 DSGVO nicht erfüllt sind.
                 </p>
               </div>
             </section>
