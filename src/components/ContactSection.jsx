@@ -62,7 +62,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">E-Mail-Adresse</h4>
-                    <p className="text-gray-600">Auf Anfrage verfügbar</p>
+                    <p className="text-gray-600">neovista.construction@gmail.com</p>
                   </div>
                 </div>
                 
@@ -72,8 +72,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Geschäftsadresse</h4>
-                    <p className="text-gray-600">Dänenstr. 6,</p>
-                    <p className="text-gray-600">10439 Berlin</p>
+                    <p className="text-gray-600">Werdertraße 30</p>
+                    <p className="text-gray-600">12103 Berlin</p>
                   </div>
                 </div>
                 

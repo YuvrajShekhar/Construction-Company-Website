@@ -48,8 +48,8 @@ const Footer = () => {
             </ul>
             <div className="space-y-2 text-gray-400">
               <p className="font-semibold text-white">Kontakt:</p>
-              <p>Dänenstr. 6</p>
-              <p>10439 Berlin</p>
+              <p>Werdertraße 30</p>
+              <p>12103 Berlin</p>
             </div>
           </div>
           

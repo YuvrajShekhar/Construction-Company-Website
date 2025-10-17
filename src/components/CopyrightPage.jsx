@@ -23,8 +23,8 @@ const CopyrightPage = () => {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
                   <strong className="text-gray-900">Neovista Construction UG</strong><br />
-                  Dänenstr. 6<br />
-                  10439 Berlin
+                  Werdertraße 30<br />
+                  12103 Berlin
                 </p>
               </div>
             </section>
@@ -35,7 +35,7 @@ const CopyrightPage = () => {
                 Vertreten durch:
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-700 leading-relaxed">Alexander Schell, Viktor Shevsov</p>
+                <p className="text-gray-700 leading-relaxed">Viktor Shevsov</p>
               </div>
             </section>
 
@@ -46,7 +46,7 @@ const CopyrightPage = () => {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@neovistaconstruction.de</a>
+                  E-Mail: <a href="mailto:office@netznavi.net" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">neovista.construction@gmail.com</a>
                 </p>
               </div>
             </section>

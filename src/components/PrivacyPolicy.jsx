@@ -23,11 +23,11 @@ const PrivacyPolicy = () => {
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <p className="text-gray-700 leading-relaxed">
                   <strong className="text-gray-900">Neovista Construction UG</strong><br />
-                  Dänenstr. 6<br />
-                  10439 Berlin
+                  Werdertraße 30<br />
+                  12103 Berlin
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  E-Mail: <a href="mailto:a.schell@neovistaconstruction.de" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">a.schell@neovistaconstruction.de</a>
+                  E-Mail: <a href="mailto:neovista.construction@gmail.com" className="text-yellow-600 hover:text-yellow-700 underline transition-colors">neovista.construction@gmail.com</a>
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Diese Datenschutzerklärung gilt für die Website <strong className="text-gray-900">www.neovistaconstruction.de</strong> sowie die dazugehörige Web-App.

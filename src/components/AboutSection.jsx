@@ -26,15 +26,6 @@ const AboutSection = () => {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mr-4">
-                  <span className="text-yellow-600 font-bold text-sm">A.S</span>
-                </div>
-                <div>
-                  <h4 className="font-semibold">Alexander Schell</h4>
-                  <p className="text-sm text-gray-600">Geschäftsführer</p>
-                </div>
-              </div>
               
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mr-4">
